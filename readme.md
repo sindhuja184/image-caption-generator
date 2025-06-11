@@ -57,3 +57,11 @@ streamlit run streamlit_app.py
 
 1. Epochs = 15
 ![Epochs 15](<WhatsApp Image 2025-06-10 at 23.36.17_b2f868d4.jpg>)
+
+2. Epochs = 20
+![alt text](<WhatsApp Image 2025-06-10 at 23.52.32_931903be.jpg>)
+
+3. Epochs = 30
+![](<WhatsApp Image 2025-06-11 at 00.15.20_90a1a20c.jpg>)
+
+The model used is the epoch 30 model.
