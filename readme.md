@@ -13,7 +13,7 @@ An AI-powered web app that generates descriptive captions for uploaded images us
 ## Demo
 Check out the demo [here](https://drive.google.com/file/d/1DWIbuS3GSIcodTu2DXhBE2HwRSw61iSi/view?usp=sharing)
 
-## SetUp Instrauctions
+## SetUp Instructions
 1. Clone the repo 
 ```bash 
 git clone https://github.com/sindhuja184/image-caption-generator.git
@@ -65,3 +65,27 @@ streamlit run streamlit_app.py
 ![](<WhatsApp Image 2025-06-11 at 00.15.20_90a1a20c.jpg>)
 
 The model used is the epoch 30 model.
+
+## Challenges Faced
+
+- Feature Extraction: Choosing the right CNN architecture and extracting meaningful features without losing spatial context.
+
+- Sequence Modeling: Training the LSTM model to generate fluent and contextually relevant captions word-by-word.
+ 
+- Evaluation Metrics: Implementing and interpreting BLEU scores to effectively evaluate caption quality.
+
+- Multimodal Fusion: Successfully integrating visual features with textual sequence generation.
+
+- Data Preprocessing: Cleaning and tokenizing captions consistently, managing padding and sequence lengths.
+
+- Large File Handling: Managing large .h5, .pkl files and avoiding Git push issues (handled via Git LFS).
+
+## Scope for improvement
+- Integrate Transformer Models: Replace LSTM with Transformer-based architectures for better context handling.
+
+- Add Attention Mechanism: Use attention layers to help the model focus on relevant parts of the image.
+
+- Multilingual Captioning: Expand the system to generate captions in multiple languages.
+
+- Enhanced Evaluation Metrics: Include CIDEr and METEOR alongside BLEU for more accurate caption assessment.
+ 
