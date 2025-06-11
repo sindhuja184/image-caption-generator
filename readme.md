@@ -52,3 +52,8 @@ streamlit run streamlit_app.py
 - This vector is passed to the LSTM-based decoder along with the tokenizer to predict a caption.
 
 - The result is shown in the Streamlit interface.
+
+## Check Out BLEU Scores for various epochs
+
+1. Epochs = 15
+![Epochs 15](<WhatsApp Image 2025-06-10 at 23.36.17_b2f868d4.jpg>)
